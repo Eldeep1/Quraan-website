@@ -35,72 +35,9 @@ function convertNumbers($str) {
         
         <header>      
             <div class= "ic">
-                <!--<i class="fa-solid fa-bars"></i>-->
-<!--                <a href="countries.html">Home</a>-->
+
             </div>
         </header>
-<!--        <aside class= "asida">
-            <nav>
-                <a href=""class= "logo"><img src="../Mosque-logo.ico" alt=""></a>
-
-                <a href="http://localhost/project2/" class= "nav-link">
-                    <i class="fa-regular fa-clock"></i>
-                    <span id= "active-span">Prayer times</span>
-                </a>
-
-                <a href="http://localhost/project2/Eldeep-work/View/index.php" class= "nav-link">
-                    <i class="fa-solid fa-book-quran"></i>
-                    <span id= "active-span">Quran</span>
-                </a>
-
-                <a href="" class= "nav-link">
-                    <i class="fa-solid fa-kaaba"></i>
-                    <span id= "active-span">Qipla</span>
-                </a>
-
-                <a href="" class= "nav-link">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    <span id= "active-span">Hijri date</span>
-                </a>
-
-                <a href="" class= "nav-link">
-                    <i class="fa-solid fa-calculator"></i>
-                    <span id= "active-span">Zakat calculator</span>
-                </a>
-
-                <a href="" class= "nav-link">
-                    <i class="fa-solid fa-user"></i>
-                    <span id= "active-span">Important people</span>
-                </a>
-                
-
-                <a href="" class= "nav-link">
-                    <i class="fa-duotone fa-book-quran"></i>
-                    <span id= "active-span">Azkar</span>
-                </a>
-
-                <a href="" class= "nav-link">
-                    <i class="fa-duotone fa-book-quran"></i>
-                    <span id= "active-span">Dua</span>
-                </a>
-
-                <a href="" class= "nav-link">
-                    <i class="fa-duotone fa-book-quran"></i>
-                    <span id= "active-span">hadith</span>
-                </a>
-
-                <a href="" class= "nav-link">
-                    <i src= "images/beads.ico"></i>
-                    <span id= "active-span">Sibha</span>
-                </a>
-
-                <a href="" class= "nav-link">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <span id= "active-span">Locations</span>
-                </a>
-
-            </nav>
-        </aside>-->
         <div id="surahListContainer">
             <input type="text" id="searchInput" placeholder="Search for a surah"  onkeyup="searchSurah()"><!-- whenever the user tries to enter any value , the function searchsurah is being called ... -->
             <select id="surahSelect" onchange="location = 'quranview.php?sura=' + this.value;"></select> <!-- whenever the user clicks on any surah , we go to the link of the selected surah on the list (following user clicks) -->
