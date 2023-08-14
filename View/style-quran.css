@@ -1,0 +1,121 @@
+#buttonContainer {
+    display: flex; /* Set display property to flex to align items in a row */
+    align-items: center; /* Align items vertically in the center */
+}
+
+#buttonContainer button {
+    position: relative;
+    margin-right: 120px; /* Add margin between buttons for spacing */
+    top: 30px;
+    left: 925px;
+    padding: 5px;
+    background-color: rgb(90, 90, 90);
+    border: 0px solid;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+}
+
+#buttonContainer button:hover{
+    background-color: rgb(1, 1, 1);
+    color: rgb(85, 84, 81);
+    transition: 0.15s ease;
+}
+
+#surahListContainer {
+    flex-grow: 1; /* Allow the dropdown list to take up remaining space */
+}
+#surahListContainer {
+    position: relative;
+    top: 20px;
+    width: 410px;
+    margin-left: 880px;
+    background-color: rgb(90, 90, 90);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Style for the surah select box */
+#surahSelect,#readerSelect,#searchInput {
+    width: 49%;
+    padding: 5px;
+    font-size: 16px;
+}
+/* Add appropriate CSS styles for the audio bar */
+#audioBar {
+    position: relative;
+    left: 240px;
+    width: calc(100% - 240px);
+    top: 699.5px;
+    border-radius: 20px;
+    height: 100px; /* Increase the height of the audio bar */
+    background-color: #464141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#audioBar audio {
+    position: relative;
+    left: 240px;
+    width: calc(100% - 240px);
+
+}
+#audioProgress {
+    flex: 0.95  ; /* Allow the progress bar to grow and take up remaining space */
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+}
+.aya-number {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(90, 90, 90);
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.quran{
+    color: white;
+    position: relative;
+    left: 330px;
+    margin-bottom: 30px;
+    padding: 10px;
+    bottom: 50px;
+    border: 5px solid rgb(90, 90, 90);
+    border-radius: 10px;
+    text-align: center ;
+    border-style: solid;
+    width: calc(90% - 240px);
+    height: 30%;
+    overflow: auto;
+    font-size: 180%
+}
+.sheat{
+    color:#FFFFE0;
+    font-size: 0px
+}
+
+h4{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    width: 1477.5px;
+    
+    background-color: rgb(90, 90, 90);
+}
+
+.asida{
+    width: 240px;
+    min-height: 100vh;
+    background-color:rgb(26, 26, 26);
+    overflow-y: auto;
+    position: fixed;
+    z-index: 999;
+}
+
