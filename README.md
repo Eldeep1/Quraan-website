@@ -5,7 +5,7 @@ a website that contains the whole quraan
 
 # if you found that the layout is bad , just zoom out your screen untill you are satisfied 
 
-# and saddly , you won't be able to use the full potential of the website cuz I stored the audio files locally on my pc , you can contact me to get it :(
+# and saddly , you won't be able to use the full potential of the website cuz the audio files is stored locally on my pc , you can contact me to get it :)
 using the power of HTML , CSS and JS , I have created quran website  where you can read any sura from your decision 
 
 also I used php and mysql to get AYAT from the database and handle users choose of specefic sura ! 
